@@ -1,0 +1,71 @@
+/* estilos genericos nossos serviços */
+.cinza-20{
+    background-color: #ccc;
+}
+.cinza-40{
+    background-color: #999;
+}
+.cinza-60{
+    background-color: #666;
+}
+.cinza-80{
+    background-color: #333;
+}
+/* Nossa Equipe Card */
+.card-1{
+    padding: 15px;
+}
+
+.sombra-card{
+    box-shadow: 0px 0px 10px rgb(68, 68, 68);
+    }
+
+/* Portfolio */
+
+.miniatura{
+     /* comportamento inline-block que continua semelahnte a texto porem reconhece margens e dimensões */
+     display: inline-block;
+     margin: 5px;
+}
+.miniatura img{
+    width: 160px;
+}
+
+/* Estilos para o carousel */
+.carousel-caption h3, .carousel-caption p{
+    text-shadow: 3px 3px 5px #000;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.466);
+}   
+
+/* estilos para as seções */
+.titulos{
+    width: fit-content;
+    border-bottom: 7px rgb(80, 80, 80) solid;
+    margin: 0 auto;
+}
+
+/* estilos para a seta */
+ .seta-sobe{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+/* estilos rodape */
+    footer{
+    padding: 15px;
+     background-color: rgb(177, 177, 177);
+        
+    }
